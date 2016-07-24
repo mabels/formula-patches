@@ -11,8 +11,8 @@ index e57a4bb..dad30ed 100644
  	$(LIBGCRYPT_LIBS) $(GPG_ERROR_LIBS)
  
  t_child_SOURCES = t-child.c
---- tests/gpgscm/Makefile.in	2016-07-14 16:03:05.000000000 +0200
-+++ ../gnupg-2.1.14.off/tests/gpgscm/Makefile.in	2016-07-24 12:54:01.000000000 +0200
+--- a/tests/gpgscm/Makefile.in	2016-07-14 16:03:05.000000000 +0200
++++ b/tests/gpgscm/Makefile.in	2016-07-24 12:54:01.000000000 +0200
 @@ -457,7 +457,7 @@
  	scheme-config.h opdefines.h scheme.c scheme.h scheme-private.h
  
